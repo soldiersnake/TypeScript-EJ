@@ -62,3 +62,25 @@ saludar2('Pepe');
 let producto = new Producto('banana', 243);
 producto.mostrarDetalles();
 console.log(colors);
+;
+const persona = {
+    nombre: 'Mariano',
+    apellido: 'Macias Gandulfo',
+    edad: 32,
+    direccion: {
+        calle: 'Herrera',
+        numero: 2026,
+    }
+};
+;
+;
+const Tortuga = {
+    nombre: 'Margarita',
+    tipo: 'Reptil'
+};
+const Ornero = {
+    nombre: 'Carlo',
+    tipo: 'Volador',
+    color: 'Blue',
+    aniosVida: 45,
+};

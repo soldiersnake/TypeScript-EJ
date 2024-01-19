@@ -67,11 +67,51 @@ producto.mostrarDetalles();
 console.log(colors);
 
 
+//INTERFAZ
 
+interface Persona  {
+    nombre: string;
+    apellido: string;
+    edad: number;
+    direccion: Direccion;
+};
 
+interface Direccion  {
+    calle: string;
+    numero: number;
+}
 
+const persona:Persona = {
+    nombre: 'Mariano',
+    apellido: 'Macias Gandulfo',
+    edad: 32,
+    direccion:{
+        calle: 'Herrera',
+        numero: 2026,
+    }
+}
 
+interface Animal{
+    nombre: string;
+    tipo: string;
+};
 
+interface Pajaro extends Animal{
+    color: string;
+    aniosVida: number;
+};
+
+const Tortuga: Animal = {
+    nombre: 'Margarita',
+    tipo: 'Reptil'
+}
+
+const Ornero: Pajaro = {
+    nombre: 'Carlo',
+    tipo: 'Volador',
+    color: 'Blue',
+    aniosVida: 45,
+}
 
 
 
